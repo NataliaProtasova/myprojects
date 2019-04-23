@@ -1,0 +1,9 @@
+**/.settings
+**/.classpath
+**/.project
+**/.springBeans
+**/bin
+**/target
+**/node_modules
+**/__pycache__
+**/.idea
