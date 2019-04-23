@@ -1,17 +1,22 @@
-URLs
+API (Python/Django Framework)
 
-API
-List of products
-http://localhost:8000/api/v1/products/
+List of products 
+GET http://localhost:8000/api/v1/products/
 
-Selected product
-http://localhost:8000/api/v1/products/1/
+Full text search 
+GET http://localhost:8000/api/v1/products/?search=prod%201
 
-Full text search
-http://localhost:8000/api/v1/products/?search=prod%201
+Product CRUD
+GET http://localhost:8000/api/v1/products/{id}/
+POST http://localhost:8000/api/v1/products/new
+PUT http://localhost:8000/api/v1/products/{id}/
+DELETE http://localhost:8000/api/v1/products/{id}/
 
-Swagger
+Swagger 
 http://localhost:8000/api/docs/
 
-DB
+DB 
 db.sqlite3
+
+Run
+python manage.py runserver
